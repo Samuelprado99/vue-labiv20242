@@ -32,6 +32,11 @@ const router = createRouter({
       name: 'anotacao',
       component: () => import('../views/AnotacaoView.vue'),
     },
+ {
+      path: '/secoes',
+      name: 'secoes',
+      component: () => import("../views/SecoesView.vue") // 👈 nova rota adicionada aqui
+    },
   ],
 })
 

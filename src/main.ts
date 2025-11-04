@@ -10,7 +10,7 @@ import axios from 'axios'
 import { usuarioStore } from './stores/usuario'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 
-axios.defaults.baseURL = 'https://fantastic-space-sniffle-9g9r994pqq2gv7-8080.app.github.dev/'
+axios.defaults.baseURL = 'https://verbose-space-system-5gvxwqwrrrg929jg-8080.app.github.dev/'
 
 axios.interceptors.request.use((config) => {
   const store = usuarioStore()

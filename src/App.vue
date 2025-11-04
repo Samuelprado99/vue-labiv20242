@@ -19,6 +19,7 @@ const store = usuarioStore()
         <RouterLink to="/usuario">Usuários</RouterLink>
         <RouterLink to="/anotacao">Gerenciar Anotações</RouterLink>
         <RouterLink v-if="!store.token" to="/login">Login</RouterLink>
+        <router-link to="/secoes">Gerenciar Seções</router-link>
       </nav>
     </div>
   </header>
